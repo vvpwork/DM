@@ -81,7 +81,7 @@ webinar__title{
    transition: all 0.6s linear;
 }
 
-@media (min-width: 916px) and (max-width:1400px){
+@media (min-width: 916px) and (max-width:1440px){
     .webinar__list{
         max-width: 910px;
         margin: 0 auto;
