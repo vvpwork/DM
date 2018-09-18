@@ -43,13 +43,13 @@ img{
 .webinar__items:not(:last-child){
     margin-bottom: 25px;
 }
-webinar__title{
+.webinar__title{
     font-style: italic;
     font-weight: 900;
 }
 
 .webinar__link{
-    display: inline-block;
+    display: block;
     position: relative;
     text-decoration: none;
     color: var(--c);
@@ -84,6 +84,12 @@ webinar__title{
 @media (min-width: 916px) and (max-width:1440px){
     .webinar__list{
         max-width: 910px;
+        margin: 0 auto;
+    }
+}
+@media(min-width: 1441px){
+    .webinar__list{
+        max-width: 1200px;
         margin: 0 auto;
     }
 }
